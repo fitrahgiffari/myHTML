@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 22</title>
+    <style>
+      #judul{
+        width:35px;
+        margin-top:-10px;
+        margin-left:20px;
+        background-color:white;
+        margin-bottom: -10px;
+        position:sticky;
+        z-index: ;
+      }
+
+      form{
+        margin : 0px;
+        padding: 1em;
+        border: border: 1px solid;
+        border-style: solid;
+        width: -400px;
+        align-items: baseline;
+      }
+      input,textarea{
+        font: 1em;
+        font-style: normal;
+      }
+      textarea,input,img,audio{
+        vertical-align: middle;
+      }
+      label{
+        display: inline-block;
+        width: 100px;
+        text-align:justify;
+      }
+
+      }
+
+    </style>
+
+  </head>
+  <body>
+    <h1>Napak Tilas</h1>
+    <p id="judul">Form</p>
+    <form>
+      <p><label>Nama</label>               :&nbsp&nbsp<input type="text" placeholder="Nama Lengkap"></p>
+      <p><label>Username</label>           :&nbsp&nbsp<input type="text" placeholder="Username"></p>
+      <p><label>Email</label>              :&nbsp&nbsp<input type="email" placeholder="Email"></p>
+      <p><label>Password</label>           :&nbsp&nbsp<input type="password" placeholder="Password"></p>
+      <p><label>Alamat Web</label>         :&nbsp&nbsp<input type="url" placeholder="Masukkan URL Web"></p>
+      <p><label>Tanggal Lahir</label>      :&nbsp&nbsp<input type="date"></p>
+      <p><label>Umur</label>               :&nbsp&nbsp<input type="number"></p>
+      <p><label>Jenis Kelamin</label>      :&nbsp&nbsp<input type="radio">Laki-Laki <input type="radio">Perempuan</p>
+      <p><label>Agama</label>              :&nbsp&nbsp<select>
+        <option>Islam</option>
+        <option>Kristen</option>
+        <option>Hindu</option>
+        <option>Buddha</option>
+      </select></p>
+      <p><label>Biografi</label>           :&nbsp&nbsp<textarea name="Biografi" rows="3" cols="25"></textarea></p>
+      <p><label>Foto</label>               :&nbsp&nbsp<img src="../../logo1.jpg" width="200px" height="200px"></p>
+      <p><label>Audio</label>              :&nbsp&nbsp<audio src="../../sample.mp3" controls muted>
+
+      </audio></p><br>
+      <input type="submit" value="Save">
+    </form>
+  </body>
+</html>
